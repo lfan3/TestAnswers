@@ -1,0 +1,58 @@
+
+.wrapper{
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+    background-color: white;
+}
+
+.collapsible{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1em;
+}
+.label{
+    font-weight: 600;
+}
+
+.folder{
+    color: rgb(50, 206, 226);
+    display: inline-flex;
+    align-items: center;
+}
+
+.content:last-child{
+    padding-bottom: 1em;
+}
+
+.content-col{
+    width: 30%;
+    float: left;
+}
+
+.content-row{
+    padding-left:1em;
+    padding-right:1em;
+}
+
+.content-row:after{
+    content: "";
+    display: table;
+    clear:both;
+}
+
+.tag-wrapper{
+    display: inline-flex;
+    height: 2.5em;
+    padding: 0.5em;
+    align-items: center;
+}
+
+.tag-content{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+
+

@@ -1,0 +1,10 @@
+你了解的关于组件通信的所有方式
+
+1) 父向子组件直接通信, 可以通过props通信
+2) 子向父组件直接通信, 可以通过callback, 比如 一个事件(event, 在子组件内点击鼠标对父组件状态(state)的影响)
+3) 兄弟组件之间通过父组件来通信
+4) 从父组件向子组件多层通信可用 React.createContext .provider and .consumer / useContext hook
+5) 复杂逻辑关系, 大量数据的情况, 可以通过redux (store, reducer, dispatch, connect)
+6) 使用global variable
+7) publisher/subcriber pattern or observer pattern
+8) forwardRef
