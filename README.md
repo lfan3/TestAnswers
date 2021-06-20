@@ -6,7 +6,8 @@
 3) cd answer5 && npm install
 
 查看第一个问题的解答测试:
-回到TestAnswers文件夹, 然后 npm test
+* 回到TestAnswers文件夹, 然后 npm test
+* test 使用 Jest,查看test代码 在answer1.test.js中
 
 查看第五个问题的效果:
 1) cd answer5 && npm start
