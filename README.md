@@ -6,7 +6,7 @@
 3) cd answer5 && npm install
 
 查看第一个问题的解答测试:
-npm test
+回到TestAnswers文件夹, 然后 npm test
 
 查看第五个问题的效果:
 1) cd answer5 && npm start
